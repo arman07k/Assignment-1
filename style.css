@@ -1,0 +1,101 @@
+/* header section -- nav bar */
+.nav{
+    display: flex;
+     /* position: fixed;p */
+    justify-content: space-between;
+    z-index: 10000;
+}
+
+.nav-bd{
+    font-family: "Fira Sans";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.signin-btn{
+    padding: 10px 20px 10px 20px;
+    font-weight: 600;
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.signin-btn:hover{
+    background-color: green;
+    color: white;
+}
+
+/* Banner Section */
+.banner-section{
+    height: 35rem;;
+    background-color: rgba(0, 106, 80, 0.3);
+    border-radius: 1rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.banner-text {
+    margin-top: 6rem;
+}
+.banner-text p{
+    font-size: 24px;
+    color:  green;
+    opacity: 0.3;
+}
+.banner-text h2{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.banner-img{
+    margin-top: 3rem;
+}
+
+.banner-section-btn{
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #006A50;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+.banner-section-btn:hover{
+    background-color: #004D3F;
+}
+
+/* piller section */
+.piller-section{
+    margin-top: 5rem;
+}
+.piller-section h1{
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container-border-padding{
+    width: 302px;
+    height: 244px;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.container-border-padding:hover{
+    background-color: rgba(0, 106, 80, 0.3);
+    color: rgb(69, 13, 13);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    
+}
+
+.container-items{
+    padding: 1rem;
+    text-align: justify;
+}
